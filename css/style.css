@@ -1,0 +1,1289 @@
+.header {
+	height: 845px;
+	background-image: url(../img/bg_header.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.main_menu {
+	width: 960px;
+	padding-bottom: 160px;
+	margin: 0 auto;
+}
+
+/*LOGO*/
+.logo {
+	display: inline-block;
+	padding-top: 62px;
+	margin-left: -7px;
+}
+
+/*MENU*/
+.menu {
+	padding-top: 77px;
+	float: right;
+}
+.menu li {
+	margin-right: 0px;
+	display: inline-block;
+	margin-left: 47px;
+}
+.menu a {
+	font-family: "LeagueGothic";
+	font-size: 24px;
+	text-decoration: none;
+	color: #fefefe;
+	text-shadow: 1px 1px 1px #a79a9d;
+}
+.menu a:hover {
+	border-bottom: 2px solid #edbfff;
+}
+
+/*SLIDES*/
+.slides {
+	text-align: center;
+	height: 321px;
+	padding-top: 80px;
+	background-color: rgba(0, 0, 0, 0.3);
+}
+.slides_1 {
+	display: inline-block;
+	position: relative;
+	width: 960px;
+	text-align: center;
+}
+.slides_text {
+	line-height: 22px;
+	display: inline-block;
+	text-align: left;
+	margin-right: 457px;
+	width: 500px;
+}
+.slides_1 p {
+	overflow: hidden;
+	line-height: 25px;
+	font-size: 18px;
+	color: #e6e3e4;
+	font-family: 'opensanslight';
+}
+.video_960 {
+	display: inline-block;
+	position: absolute;
+	top: -105px;
+	right: 61px;
+}
+.video_480 {
+	display: none;
+}
+.slides_text h1 {
+	font-size: 56px;
+	color: white;
+	letter-spacing: 1px;
+	line-height: 56px;
+	font-family: "LeagueGothic";
+}
+.slides_text h2 {
+	line-height: 35px;
+	font-size: 32px;
+	color: #e7bbf8;
+	font-family: "LeagueGothic";
+}
+.arrow1 {
+	display: inline-block;
+	bottom: 254px;
+	position: relative;
+}
+.arrow2 {
+	display: inline-block;
+	position: relative;
+	bottom: 256px;
+	right: -168px;
+}
+.slides_input {
+	margin-top: 162px;
+	position: relative;
+	margin-left: 671px;
+}
+
+/*COMPANY*/
+	
+.company {
+	background: linear-gradient(to top, #322539, #745083);
+	padding-top: 55px;
+	padding-bottom: 83px;
+}
+.text {
+	width: 962px;
+	margin: 0 auto;
+	text-align: center;
+}
+.wraper_1,.wraper_2,.wraper_3 {
+	display: inline-block;
+}
+.company__text1 {
+	width: 227px;
+	display: inline-block;
+	text-align: left;
+	margin: -10px 0px 6px 65px;
+	position: relative;
+}
+.company__text2 {
+	position: relative;
+	width: 227px;
+	display: inline-block;
+	text-align: left;
+	margin: -11px 0px 6px 108px;
+}
+.company__text3 {
+	position: relative;
+	width: 227px;
+	display: inline-block;
+	text-align: left;
+	margin: -15px 0px 6px 98px;
+}
+.company__text1 h3 {
+	line-height: 40px;
+	font-size: 30px;
+	color: white;
+	font-family: "LeagueGothic";
+}
+.company__text1 span {
+	font-size: 16px;
+	color: white;
+	font-family: "opensanslight";
+	line-height: 24px;
+}
+.company__text2 h3 {
+	line-height: 40px;
+	font-size: 30px;
+	color: white;
+	font-family: "LeagueGothic";
+}
+.company__text2 span {
+	font-size: 16px;
+	color: white;
+	font-family: "opensanslight";
+	line-height: 24px;
+}
+.company__text3 h3 {
+	line-height: 40px;
+	font-size: 30px;
+	color: white;
+	font-family: "LeagueGothic";
+}
+.company__text3 span {
+	font-size: 16px;
+	color: white;
+	font-family: "opensanslight";
+	line-height: 24px;
+}
+.wraper_1 a {
+	display: block;
+	position: relative;
+	top: 14px;
+	left: 107px;
+	font-size: 18px;
+	color: white;
+	font-family: "LeagueGothic";
+}
+.wraper_2 a {
+	display: block;
+	top: 13px;
+	left: 132px;
+	font-size: 18px;
+	color: white;
+	font-family: "LeagueGothic";
+	position: relative;
+}
+.wraper_3 a {
+	display: block;
+	top: 15px;
+	left: 134px;
+	font-size: 18px;
+	color: white;
+	font-family: "LeagueGothic";
+	position: relative;
+}
+.text a:hover {
+	text-shadow: 0 0 3px #ffffff;
+	text-decoration: none;
+}
+.pic1 {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background-image: url(../img/pic.png);
+	position: relative;
+	left: 14px;
+	top: 26px;
+}
+.pic2 {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background-image: url(../img/pic.png);
+	position: relative;
+	background-position: 58px;
+	left: 57px;
+	top: 28px;
+}
+.pic3 {
+	height: 30px;
+	width: 30px;
+	display: block;
+	background-image: url(../img/pic.png);
+	background-position: 29px;
+	position: relative;
+	top: 26px;
+	left: 51px;
+}
+
+/*CONTENT*/
+
+.content {
+	padding-top: 77px;
+	padding-bottom: 57px;
+	background-color: #f9f9f9;
+	border-bottom: 1px solid #f4f4f4;
+}
+.content_block {
+	text-align: center;
+	width: 960px;
+	margin: 0 auto;
+	position: relative;
+}
+.blog {
+	width: 386px;
+    height: 219px;
+    margin: 19px 16px 0 24px;
+    padding-top: 37px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    line-height: 31px;
+    text-align: left;
+    border: 1px solid #f6f6f6;
+    background-color: white;
+}
+.blog h3 {
+	display: inline;
+	color: black;
+	font-size: 29px;
+	font-family: "LeagueGothic";
+}
+.blog h4 {
+	display: inline;
+	color: #edbfff;
+	font-size: 30px;
+	font-family: "LeagueGothic";
+}
+.blog span {
+	display: block;
+	padding-top: 0px;
+	padding-right: 40px;
+	font-size: 16px;
+	font-family: "opensanslight";
+	line-height: 24px;
+}
+.input_blog {;
+	margin-top: 18px;
+	margin-right: 480px;
+}
+#photo {
+	position: absolute;
+	left: 0px;
+	top: 20px;
+	z-index: 2;
+}
+.blog1 {
+	text-align: left;
+	vertical-align: text-top;
+	margin-top: -297px;
+	width: 444px;
+    height: 276px;
+    margin-left: 505px;
+    line-height: 31px;
+	display: inline-block;
+}
+.blog_icon {
+	float: left;
+}
+.blog1 h3 {
+    font-size: 30px;
+    line-height: 60px;
+    font-family: "LeagueGothic";
+}
+.blog1 h4 {
+	display: inline;
+	margin-left: 17px;
+	font-size: 16px;
+	font-family: "Open Sans Extrabold";
+	font-weight: bold;
+}
+.blog1 span {
+	display: inline;
+	text-align: left;
+	margin-left: 16px;
+	font-size: 16px;
+	font-family: "opensanslight";
+}
+.blog1 a {
+    position: relative;
+    left: 348px;
+    top: 12px;
+	font-family: "LeagueGothic";
+	color: black;
+	font-size: 18px;
+	text-decoration: none;
+}
+#link {
+	display: none;
+}
+
+/*PARTNER*/
+
+.partner {
+	padding-top: 16px;
+	padding-bottom: 37px;
+	border-bottom: 1px solid #ebebeb;
+}
+.partner_icon {
+	width: 960px;
+	margin: 0 auto;
+	text-align: center;
+}
+.icon {
+	display: inline-block;
+	margin-right: 16px;
+	margin-left: 45px;
+}
+
+/*COMMENTS*/
+.comments {
+	background-color: #ececec;
+	padding-bottom: 74px;
+	padding-top: 78px;
+}
+.comments_col {
+	text-align: center;
+	margin: 0 auto;
+	width: 960px;
+}
+.col1 {
+	display: inline-block;
+	text-align: left;
+	overflow: hidden;
+	width: 284px;
+	height: 230px;
+	margin-left: 1px;
+	padding-top: 8px;
+}
+.col1 p {
+	font-size: 16px;
+	color: #787878;
+	line-height: 25px;
+	font-family: "opensanslight";
+}
+.col2 {
+	display: inline-block;
+	text-align: left;
+	overflow: hidden;
+	width: 284px;
+	height: 230px;
+	margin-left: 49px;
+}
+.col2 h3 {
+	line-height: 40px;
+	color: #454545;
+	font-size: 30px;
+	font-family: "LeagueGothic";
+}
+.col2 p {
+	font-size: 16px;
+	color: #787878;
+	line-height: 25px;
+	font-family: "opensanslight";
+} 
+.col3 {
+	display: inline-block;
+	text-align: left;
+	overflow: hidden;
+	width: 284px;
+	height: 230px;
+	margin-left: 48px;
+}
+.col3 h3 {
+	line-height: 40px;
+	color: #454545;
+	font-size: 30px;
+	font-family: "LeagueGothic";
+}
+.col3 p {
+	font-size: 16px;
+	color: #787878;
+	line-height: 25px;
+	font-family: "opensanslight";
+} 
+.col4,.col5 {
+	display: none;
+}
+
+/*FOOTER*/
+
+.footer {
+	height: 68px;
+	padding-top: 46px;
+	text-align: center;
+	background-image: url(../img/bg_footer.jpg);
+	background-repeat: no-repeat; 
+	background-position: center;
+	background-size: cover;
+}
+.footer_block {
+	text-align: center;
+	margin: 0 auto;
+	width: 960px;
+}
+.menu_footer {
+	right: 40px;
+	display: inline-block;
+	position: relative;
+}
+.menu_footer li {
+	margin-left: 29px;
+	display: inline-block;
+}
+.menu_footer a {
+	font-family: "LeagueGothic";
+	font-size: 20px;
+	text-decoration: none;
+	color: #fefefe;
+	text-shadow: 1px 1px 1px #a79a9d;
+	margin: 5px;
+}
+.menu_footer a:hover {
+	border-bottom: 1px solid #edbfff;
+}
+.footer span {
+	margin-left: 239px;
+    color: white;
+    font-size: 12px;
+    font-family: "opensanslight";
+	position: relative;
+	
+}
+
+
+@media screen and (max-width: 959px) {
+	.header {
+		height: 798px;
+	}
+	.logo {
+		padding-top: 62px;
+		margin-left: 13px;
+	}
+	.main_menu {
+		width: 768px;
+		padding-bottom: 78px;
+	}
+	.menu {
+		float: none;
+		margin-left: 22px;
+		padding-top: 29px;
+	}
+	.menu li {
+		margin-left: 47px;
+	}
+	.menu .menu_item_sub1 {
+		margin-left: 0px;
+	}
+	.slides_1 {
+		width: 667px;
+	}
+	.slides {
+		height: 299px;
+		padding-top: 101px;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+	.slides_text {
+		width: 272px;
+		height: 188px;
+		margin-top: 3px;
+		margin-right: 382px;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.slides_text h1 {
+		font-size: 44px;
+		color: white;
+		line-height: 37px;
+		font-family: "LeagueGothic";
+	}
+	.slides_text h2 {
+		line-height: 46px;
+		font-size: 24px;
+		color: #e7bbf8;
+		font-family: "LeagueGothic";
+		white-space: nowrap;
+	}
+ 	.slides_1 p {
+		overflow: hidden;
+		line-height: 25px;
+		font-size: 18px;
+		color: #e6e3e4;
+		font-family: "opensanslight";
+	}
+	.video_960 {
+		position: absolute;
+		top: -131px;
+		right: -22px;
+	}
+	.slides_input {
+		margin-top: 139px;
+		margin-left: 427px;
+	}
+	.arrow1 {
+		bottom: 232px;
+		left: -5px;
+	}
+	.arrow2 {
+		right: -26px;
+		bottom: 234px;
+	}
+	.company {
+		padding-top: 55px;
+		padding-bottom: 62px;
+	}
+	.text {
+		width: 768px;
+		margin-top: -5px;
+	}
+	.company__text1 {
+		width: 155px;
+		height: 175px;
+		overflow: hidden;
+		margin: -6px 0px 6px 65px;
+	}
+	.company__text2 {
+		width: 155px;
+		height: 179px;
+		overflow: hidden;
+		margin: -8px 0px 6px 93px;
+	}
+	.company__text3 {
+		width: 155px;
+		height: 176px;
+		overflow: hidden;
+		margin: -9px 0px 6px 101px;
+	}
+	.company__text1 h3 {
+		line-height: 30px;
+		font-size: 24px;
+	}
+	.company__text2 h3 {
+		line-height: 36px;
+		font-size: 24px;
+	}
+	.company__text3 h3 {
+		line-height: 30px;
+		font-size: 24px;
+	}
+	.company__text1 span {
+		font-size: 16px;
+		color: white;
+		font-family: "opensanslight";
+		line-height: 24px;
+	}
+	.company__text1 span {
+		font-size: 16px;
+		color: white;
+		font-family: "opensanslight";
+		line-height: 24px;
+	}
+	.wraper_1 a {
+		top: -4px;
+		left: 74px;
+		font-size: 18px;
+	}
+	.wraper_2 a {
+		top: -4px;
+		left: 88px;
+		font-size: 18px;
+	}
+	.wraper_3 a {
+		top: -4px;
+		left: 91px;
+		font-size: 18px;
+	}
+	.pic1 {
+		height: 30px;
+		width: 30px;
+		display: block;
+		background-image: url(../img/pic.png);
+		position: relative;
+		left: 14px;
+		top: 26px;
+	}
+	.pic2 {
+		height: 30px;
+		width: 30px;
+		display: block;
+		background-image: url(../img/pic.png);
+		position: relative;
+		background-position: -1px;
+		left: 44px;
+		top: 28px;
+	}
+	.pic3 {
+		height: 30px;
+		width: 30px;
+		display: block;
+		background-image: url(../img/pic.png);
+		background-position: 0px;
+		position: relative;
+		top: 26px;
+		left: 51px;
+	}
+	.content {
+		padding-top: 75px;
+		padding-bottom: 39px;
+	}
+	.content_block {
+		width: 768px;
+		margin: 0 auto;
+	}
+	.blog {
+    	width: 273px;
+    	padding-top: 38px;
+    	padding-bottom: 29px;
+    	overflow: hidden;
+    	margin-left: 43px;
+    	height: 209px;
+	}
+	.blog span {
+		display: block;
+		overflow: hidden;
+		height: 141px;
+	}
+	#photo {
+		position: absolute;
+		left: 22px;
+		top: 24px;
+		z-index: 2;
+	}
+	.blog h3 {
+		display: block;
+		font-size: 24px;
+	}
+	.blog h4 {
+		font-size: 24px;
+	}
+	.input_blog {
+		margin-top: 20px;
+		margin-left: 128px;
+	}
+	#link {
+		display: inline-block;
+		position: relative;
+    	left: 316px;
+    	top: -49px;
+		font-family: "LeagueGothic";
+		color: black;
+		font-size: 18px;
+		text-decoration: none;
+	}
+	.blog1 {
+    	width: 328px;
+    	height: 276px;
+    	margin-left: 395px;
+    	margin-top: -295px;
+    	white-space: nowrap;
+    	overflow: hidden;
+	}
+	.blog1 span {
+		margin-left: 15px;
+		line-height: 34px;
+	}
+	.blog1 h4 {
+		margin-left: 15px;
+	}
+	.partner {
+		padding-top: 16px;
+		padding-bottom: 30px;
+	}
+	.partner_icon {
+		width: 768px;
+		padding-left: 49px;
+	}
+	.icon {
+		margin-top: 6px;
+		margin-right: 73px;
+		margin-left: -26px;
+	}
+	.comments {
+		padding-bottom: 89px;
+		padding-top: 93px;
+	}
+	.comments_col {
+		width: 768px;
+	}
+	.col1,.col2 {
+		display: none;
+	}
+	.col3 {
+		width: 204px;
+		height: 210px;
+		overflow: hidden;
+		margin-left: 9px;
+	}
+	.col3 h3 {
+		line-height: 40px;
+		color: #454545;
+		font-size: 24px;
+		font-family: "LeagueGothic";
+	}
+	.col3 p {
+		font-size: 16px;
+		color: #787878;
+		line-height: 24px;
+		font-family: "opensanslight";
+	} 
+	.col4 {
+		display: inline-block;
+		text-align: left;
+		overflow: hidden;
+		width: 204px;
+		height: 210px;
+		margin-left: 56px;
+	}
+	.col5 {
+		display: inline-block;
+		text-align: left;
+		overflow: hidden;
+		width: 204px;
+		height: 210px;
+		margin-left: 54px;
+	}
+	.col4 h3 {
+		line-height: 40px;
+		color: #454545;
+		font-size: 24px;
+		font-family: "LeagueGothic";
+	}
+	.col5 h3 {
+		line-height: 40px;
+		color: #454545;
+		font-size: 24px;
+		font-family: "LeagueGothic";
+	}
+	.col4 p {
+		font-size: 16px;
+		color: #787878;
+		line-height: 24px;
+		font-family: "opensanslight";
+	}
+	.col5 p {
+		font-size: 16px;
+		color: #787878;
+		line-height: 24px;
+		font-family: "opensanslight";
+	}
+	.footer {
+		padding-top: 47px;
+		padding-bottom: 85px;
+	}
+	.footer_block {
+		width: 768px;
+	}
+	.menu_footer {
+		right: 112px;
+	}
+	.footer span {
+		top: 33px;
+		margin-left: 585px;
+	}
+
+}
+@media screen and (max-width: 767px) {
+	.header {
+		height: 547px;
+	}
+	.logo {
+		margin-left: 0;
+	}
+	.main_menu {
+		width: 480px;
+		text-align: center;
+		padding-bottom: 57px;
+		margin: 0 auto;
+	}
+	.menu {
+		width: 240px;
+		margin: 0 auto;
+		display: block;
+		top: 3px;
+		position: relative;
+	}
+	.menu ul {
+		margin: 0 auto;
+		position: absolute;
+		z-index: 3;
+	}
+	.menu li {
+		display: block;
+		width: 240px;
+		height: 42px;
+		display: none;
+		margin: 0;
+		border-bottom: 1px solid black;
+	}
+	.menu .menu_item_sub1 {
+		display: block;
+		margin: 0;
+	}
+	.menu a {
+		margin: 0;
+		display: block;
+		text-align: center;
+		font-family: "LeagueGothic";
+		font-size: 24px;
+		text-decoration: none;
+		color: white;
+	}
+	.menu ul:hover {
+		width: 240px;
+		background-color: rgba(63, 50, 71, 0.5);
+		border: 1px solid black;
+		border-radius: 12px;
+		line-height: 42px;
+	}
+	.menu ul:hover li {
+		display: block;	
+	}
+	.menu a:hover {
+		color: white;
+		text-decoration: none;
+		background-color: #2a2130;
+	}
+	.menu li:last-child:hover a {
+		border-radius: 0 0 12px 12px;
+	}
+	.menu li:last-child {
+		border-bottom: none;
+	}
+	.menu li:first-child:hover a {
+		border-radius: 12px 12px 0 0;
+	}
+	.menu li:first-child {
+		border: none;
+	}
+    .slides_1 {
+		width: 399px;
+		position: relative;
+		margin: 0 auto;
+	}
+	.slides {
+		height: 158px;
+		padding-top: 89px;
+		background-color: rgba(0, 0, 0, 0.3);
+	}
+	.slides_text {
+		width: 272px;
+		height: 66px;
+		margin-top: 5px;
+		margin-left: -10px;
+		margin-right: 140px;
+		text-align: left;
+		display: inline-block;
+		overflow: hidden;
+	}
+	.slides_text h1 {
+		font-size: 34px;
+		color: white;
+		line-height: 37px;
+		font-family: "LeagueGothic";
+	}
+	.slides_text h2 {
+		line-height: 25px;
+		font-size: 18px;
+		color: #e7bbf8;
+		font-family: "LeagueGothic";
+		white-space: nowrap;
+	}
+ 	.slides_1 p {
+		overflow: hidden;
+		line-height: 25px;
+		font-size: 18px;
+		color: #e6e3e4;
+		font-family: "opensanslight";
+	}
+	.video_960 {
+		display: none;
+	}
+	.video_480 {
+		display: block;
+		position: absolute;
+		top: -104px;
+		right: -3px;
+	}
+	.slides_input {
+		margin-top: 104px;
+		margin-left: 1px;
+	}
+	.arrow1 {
+		bottom: 140px;
+		left: -16px;
+	}
+	.arrow2 {
+		right: -236px;
+		bottom: 182px;
+	}
+	.company {
+		padding-top: 55px;
+		padding-bottom: 72px;
+	}
+	.text {
+		width: 480px;
+		margin: 0 auto;
+	}
+	.wraper_1,.wraper_2,.wraper_3 {
+		display: block;
+	}
+	.company__text1 {
+		width: 366px;
+		height: 108px;
+		margin-top: -9px;
+		margin-left: 59px;
+	}
+	.company__text2 {
+		width: 366px;
+		height: 108px;
+		margin-top: -11px;
+		margin-left: 60px;
+	}
+	.company__text3 {
+		width: 366px;
+		height: 108px;
+		margin-top: -4px;
+		margin-left: 57px;
+	}
+	.wraper_1 a {
+		top: -2px;
+		left: 189px;
+		font-size: 18px;
+	}
+	.wraper_2 a {
+		top: 2px;
+		left: 187px;
+		font-size: 18px;
+	}
+	.wraper_3 a {
+		top: -1px;
+		left: 188px;
+		font-size: 18px;
+	}
+	.pic1 {
+		left: 34px;
+		top: 24px;
+	}
+	.pic2 {
+		left: 37px;
+		top: 26px;
+	}
+	.pic3 {
+		top: 30px;
+		left: 34px;
+	}
+	.content {
+		padding-top: 56px;
+		padding-bottom: 76px;
+	}
+	.content_block {
+		width: 480px;
+		margin: 0 auto;
+	}
+	.blog {
+		display: block;
+		width: 378px;
+		height: 172px;
+		margin-left: 46px;
+		margin-top: 14px;
+		padding-top: 23px;
+		padding-bottom: 77px;
+	}
+	.blog h3 {
+		display: inline-block;
+		font-size: 29px;
+	}
+	.blog h4 {
+		font-size: 30px;
+		line-height: 39px;
+	}
+	#photo {
+		position: absolute;
+		left: 22px;
+		top: 20px;
+		z-index: 2;
+	}
+	.blog1 {
+		display: block;
+		margin-top: 35px;
+		margin-left: 86px;
+	}
+	.input_blog {
+		margin-top: 20px;
+		margin-right: 0;
+		margin-left: 30px;
+	}
+	.blog span {
+		height: 195px;
+		line-height: 24px;
+		padding-top: 8px;
+	}
+	#link {
+    	left: 140px;
+    	top: -11px;
+	}
+	.partner {
+		padding-top: 20px;
+		padding-bottom: 47px;
+	}
+	.partner_icon {
+		width: 480px;
+		padding-left: 73px;
+	}
+	.icon {
+		margin-top: 15px;
+		margin-right: 98px;
+		margin-left: -47px;
+	}
+	.comments {
+		padding-bottom: 39px;
+		padding-top: 69px;
+	}
+	.comments_col {
+		width: 480px;
+	}
+	.col3 {
+		display: block;
+		width: 440px;
+		height: 130px;
+		margin-bottom: 55px;
+		margin-left: 20px;
+	}
+	.col4 {
+		display: block;
+		width: 440px;
+		height: 130px;
+		margin-left: 21px;
+		margin-bottom: 59px;
+	}
+	.col5 {
+		display: block;
+		width: 440px;
+		height: 130px;
+		margin-left: 21px;
+		margin-bottom: 55px;
+	}
+	.footer {
+		padding-top: 47px;
+		padding-bottom: 85px;
+	}
+	.footer_block {
+		width: 480px;
+	}
+	.menu_footer {
+		right: 7px;
+	}
+	.menu_footer li {
+		margin-left: 20px;
+	}
+	.menu_footer a {
+		margin: 0;
+	}
+	.footer span {
+    	color: white;
+    	font-size: 12px;
+		position: relative;
+		margin-left: 0;
+	}
+
+} 
+@media screen and (max-width: 479px) {
+	.header {
+		height: 517px;
+		background-image: url(../img/bg_header.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center;
+	}
+	.main_menu {
+		width: 320px;
+		padding-bottom: 57px;
+	}
+	.slides_1 {
+		width: 262px;
+		position: relative;
+		margin: 0 auto;
+	}
+	.slides {
+		height: 158px;
+		padding-top: 89px;
+		background-color: rgba(0, 0, 0, 0);
+	}
+	.slides_text {
+		width: 204px;
+		height: 60px;
+		margin-right: -7px;
+	}
+	.slides_text h1 {
+		font-size: 32px;
+	}
+	.slides_text h2 {
+		line-height: 20px;
+		font-size: 19px;
+	}
+	.video_480 {
+		display: none;
+	}
+	.arrow1 {
+		bottom: 99px;
+		left: -2px;
+	}
+	.arrow2 {
+		right: -156px;
+		bottom: 142px;
+	}
+	.slides_input {
+		margin-top: 68px;
+		margin-left: -9px;
+	}
+	.company {
+		padding-top: 36px;
+		padding-bottom: 70px;
+	}
+	.text {
+		width: 320px;
+	}
+	.company__text1 {
+		width: 195px;
+		height: 102px;
+		margin-top: 0px;
+		margin-left: 44px;
+	}
+	.company__text2 {
+		width: 195px;
+		height: 106px;
+		margin-top: -6px;
+		margin-left: 44px;
+	}
+	.company__text3 {
+		width: 195px;
+		height: 102px;
+		margin-top: 13px;
+		margin-left: 45px;
+	}
+	.wraper_1 a {
+		top: 6px;
+		left: 109px;
+		font-size: 18px;
+	}
+	.wraper_2 a {
+		top: 6px;
+		left: 108px;
+		font-size: 18px;
+	}
+	.wraper_3 a {
+		top: 6px;
+		left: 109px;
+		font-size: 18px;
+	}
+	.pic1 {
+		left: 34px;
+		top: 32px;
+	}
+	.pic2 {
+		left: 35px;
+		top: 32px;
+	}
+	.pic3 {
+		top: 48px;
+		left: 35px;
+	}
+	.content {
+		padding-top: 45px;
+		padding-bottom: 76px;
+	}
+	.content_block {
+		width: 320px;
+	}
+	.blog {
+		width: 221px;
+		height: 212px;
+		margin-left: 44px;
+		margin-top: 26px;
+		padding-top: 26px;
+		padding-left: 37px;
+		padding-bottom: 28px;	
+	}
+	.blog h3 {
+		display: block;
+		font-size: 24px;
+	}
+	.blog h4 {
+		font-size: 24px;
+		line-height: 32px;
+	}
+	.blog span {
+		height: 158px;
+		line-height: 23px;
+		padding-top: 0px;
+		padding-right: 30px;
+		padding-left: 3px;
+	}
+	#photo {
+		left: 22px;
+		top: 18px;
+	}
+	.blog1 {
+		display: block;
+		width: 280px;
+		margin-top: 37px;
+		margin-left: 22px;
+	}
+	.input_blog {
+		margin-top: 22px;
+		margin-left: 47px;
+	}
+	#link {
+    	left: 93px;
+    	top: -12px;
+	}
+	.partner {
+		padding-top: 20px;
+		padding-bottom: 23px;
+		background-color: #f9f9f9;
+	}
+	.partner_icon {
+		width: 320px;
+	}
+	.icon {
+		margin-top: 28px;
+		margin-bottom: 31px;
+		margin-right: 98px;
+		margin-left: -47px;
+	}
+	.comments {
+		display: none;
+	}
+	.footer {
+		padding-top: 3px;
+		padding-bottom: 131px;
+	}
+	.footer_block {
+		width: 320px;
+	}
+	.menu_footer {
+		display: none;
+	}
+	
+}
