@@ -49,7 +49,7 @@
 .slides_1 {
 	display: inline-block;
 	position: relative;
-	width: 960px;
+	width: 888px;
 	text-align: center;
 }
 .slides_text {
@@ -88,17 +88,6 @@
 	color: #e7bbf8;
 	font-family: "LeagueGothic";
 }
-.arrow1 {
-	display: inline-block;
-	bottom: 254px;
-	position: relative;
-}
-.arrow2 {
-	display: inline-block;
-	position: relative;
-	bottom: 256px;
-	right: -168px;
-}
 .slides_input {
 	margin-top: 162px;
 	position: relative;
@@ -108,6 +97,7 @@
 /*COMPANY*/
 	
 .company {
+	background: -moz-linear-gradient(top, #322539, #745083);
 	background: linear-gradient(to top, #322539, #745083);
 	padding-top: 55px;
 	padding-bottom: 83px;
@@ -541,14 +531,6 @@
 		margin-top: 139px;
 		margin-left: 427px;
 	}
-	.arrow1 {
-		bottom: 232px;
-		left: -5px;
-	}
-	.arrow2 {
-		right: -26px;
-		bottom: 234px;
-	}
 	.company {
 		padding-top: 55px;
 		padding-bottom: 62px;
@@ -929,14 +911,6 @@
 		margin-top: 104px;
 		margin-left: 1px;
 	}
-	.arrow1 {
-		bottom: 140px;
-		left: -16px;
-	}
-	.arrow2 {
-		right: -236px;
-		bottom: 182px;
-	}
 	.company {
 		padding-top: 55px;
 		padding-bottom: 72px;
@@ -1144,14 +1118,6 @@
 	}
 	.video_480 {
 		display: none;
-	}
-	.arrow1 {
-		bottom: 99px;
-		left: -2px;
-	}
-	.arrow2 {
-		right: -156px;
-		bottom: 142px;
 	}
 	.slides_input {
 		margin-top: 68px;
