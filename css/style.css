@@ -49,8 +49,6 @@
 .slides_1 {
 	display: inline-block;
 	position: relative;
-	width: 888px;
-	text-align: center;
 }
 .slides_text {
 	line-height: 22px;
@@ -89,9 +87,9 @@
 	font-family: "LeagueGothic";
 }
 .slides_input {
-	margin-top: 162px;
+	margin-top: 192px;
 	position: relative;
-	margin-left: 671px;
+	margin-left: 541px;
 }
 
 /*COMPANY*/
@@ -109,12 +107,13 @@
 }
 .wraper_1,.wraper_2,.wraper_3 {
 	display: inline-block;
+	width: 295px;
 }
 .company__text1 {
 	width: 227px;
 	display: inline-block;
 	text-align: left;
-	margin: -10px 0px 6px 65px;
+	margin: -10px 32px 6px 35px;
 	position: relative;
 }
 .company__text2 {
@@ -122,14 +121,14 @@
 	width: 227px;
 	display: inline-block;
 	text-align: left;
-	margin: -11px 0px 6px 108px;
+	margin: -11px 0px 6px 73px;
 }
 .company__text3 {
 	position: relative;
 	width: 227px;
 	display: inline-block;
 	text-align: left;
-	margin: -15px 0px 6px 98px;
+	margin: -15px 0px 6px 109px;
 }
 .company__text1 h3 {
 	line-height: 40px;
@@ -168,27 +167,24 @@
 	line-height: 24px;
 }
 .wraper_1 a {
-	display: block;
 	position: relative;
 	top: 14px;
-	left: 107px;
+	left: 74px;
 	font-size: 18px;
 	color: white;
 	font-family: "LeagueGothic";
 }
 .wraper_2 a {
-	display: block;
-	top: 13px;
-	left: 132px;
+	top: 14px;
+	left: 116px;
 	font-size: 18px;
 	color: white;
 	font-family: "LeagueGothic";
 	position: relative;
 }
 .wraper_3 a {
-	display: block;
 	top: 15px;
-	left: 134px;
+	left: 153px;
 	font-size: 18px;
 	color: white;
 	font-family: "LeagueGothic";
@@ -204,7 +200,7 @@
 	display: block;
 	background-image: url(../img/pic.png);
 	position: relative;
-	left: 14px;
+	left: -19px;
 	top: 26px;
 }
 .pic2 {
@@ -214,7 +210,7 @@
 	background-image: url(../img/pic.png);
 	position: relative;
 	background-position: 58px;
-	left: 57px;
+	left: 22px;
 	top: 28px;
 }
 .pic3 {
@@ -225,7 +221,7 @@
 	background-position: 29px;
 	position: relative;
 	top: 26px;
-	left: 51px;
+	left: 55px;
 }
 
 /*CONTENT*/
@@ -274,7 +270,7 @@
 	font-family: "opensanslight";
 	line-height: 24px;
 }
-.input_blog {;
+.input_blog {
 	margin-top: 18px;
 	margin-right: 480px;
 }
@@ -350,8 +346,8 @@
 /*COMMENTS*/
 .comments {
 	background-color: #ececec;
-	padding-bottom: 74px;
-	padding-top: 78px;
+	padding-bottom: 71px;
+	padding-top: 81px;
 }
 .comments_col {
 	text-align: center;
@@ -688,6 +684,9 @@
 	.blog1 h4 {
 		margin-left: 15px;
 	}
+	.blog1 a {
+		display: none;
+	}
 	.partner {
 		padding-top: 16px;
 		padding-bottom: 30px;
@@ -872,7 +871,7 @@
 		width: 272px;
 		height: 66px;
 		margin-top: 5px;
-		margin-left: -10px;
+		margin-left: 13px;
 		margin-right: 140px;
 		text-align: left;
 		display: inline-block;
@@ -905,7 +904,7 @@
 		display: block;
 		position: absolute;
 		top: -104px;
-		right: -3px;
+		right: -22px;
 	}
 	.slides_input {
 		margin-top: 104px;
@@ -926,33 +925,33 @@
 		width: 366px;
 		height: 108px;
 		margin-top: -9px;
-		margin-left: 59px;
+		margin-left: 88px;
 	}
 	.company__text2 {
 		width: 366px;
 		height: 108px;
-		margin-top: -11px;
-		margin-left: 60px;
+		margin-top: -12px;
+		margin-left: 90px;
 	}
 	.company__text3 {
 		width: 366px;
 		height: 108px;
 		margin-top: -4px;
-		margin-left: 57px;
+		margin-left: 88px;
 	}
 	.wraper_1 a {
-		top: -2px;
-		left: 189px;
+		top: 0px;
+		left: 283px;
 		font-size: 18px;
 	}
 	.wraper_2 a {
 		top: 2px;
-		left: 187px;
+		left: 281px;
 		font-size: 18px;
 	}
 	.wraper_3 a {
 		top: -1px;
-		left: 188px;
+		left: 282px;
 		font-size: 18px;
 	}
 	.pic1 {
@@ -980,6 +979,7 @@
 		width: 378px;
 		height: 172px;
 		margin-left: 46px;
+		margin-right: 0;
 		margin-top: 14px;
 		padding-top: 23px;
 		padding-bottom: 77px;
@@ -1018,17 +1018,17 @@
     	top: -11px;
 	}
 	.partner {
-		padding-top: 20px;
-		padding-bottom: 47px;
+		padding-top: 15px;
+		padding-bottom: 43px;
 	}
 	.partner_icon {
 		width: 480px;
-		padding-left: 73px;
+		padding-left: 0px;
 	}
 	.icon {
-		margin-top: 15px;
-		margin-right: 98px;
-		margin-left: -47px;
+		margin-top: 17px;
+		margin-right: 30px;
+		margin-left: 30px;
 	}
 	.comments {
 		padding-bottom: 39px;
