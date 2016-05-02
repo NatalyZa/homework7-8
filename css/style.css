@@ -330,6 +330,7 @@
 .partner {
 	padding-top: 16px;
 	padding-bottom: 37px;
+	background-color: #f9f9f9;
 	border-bottom: 1px solid #ebebeb;
 }
 .partner_icon {
@@ -459,7 +460,7 @@
 }
 
 
-@media screen and (max-width: 959px) {
+@media screen and (max-width: 960px) {
 	.header {
 		height: 798px;
 	}
@@ -468,7 +469,7 @@
 		margin-left: 13px;
 	}
 	.main_menu {
-		width: 768px;
+		width: 748px;
 		padding-bottom: 78px;
 	}
 	.menu {
@@ -529,29 +530,33 @@
 	}
 	.company {
 		padding-top: 55px;
-		padding-bottom: 62px;
+		padding-bottom: 65px;
 	}
 	.text {
-		width: 768px;
-		margin-top: -5px;
+		width: 748px;
+		margin-top: -8px;
+		text-align: left;
+	}
+	.wraper_1,.wraper_2,.wraper_3 {
+		width: 230px;
 	}
 	.company__text1 {
 		width: 155px;
 		height: 175px;
 		overflow: hidden;
-		margin: -6px 0px 6px 65px;
+		margin: -6px 0px 6px 85px;
 	}
 	.company__text2 {
 		width: 155px;
 		height: 179px;
 		overflow: hidden;
-		margin: -8px 0px 6px 93px;
+		margin: -8px 0px 6px 103px;
 	}
 	.company__text3 {
 		width: 155px;
 		height: 176px;
 		overflow: hidden;
-		margin: -9px 0px 6px 101px;
+		margin: -9px 0px 6px 128px;
 	}
 	.company__text1 h3 {
 		line-height: 30px;
@@ -578,18 +583,18 @@
 		line-height: 24px;
 	}
 	.wraper_1 a {
-		top: -4px;
-		left: 74px;
+		top: -5px;
+		left: 177px;
 		font-size: 18px;
 	}
 	.wraper_2 a {
-		top: -4px;
-		left: 88px;
+		top: -2px;
+		left: 193px;
 		font-size: 18px;
 	}
 	.wraper_3 a {
-		top: -4px;
-		left: 91px;
+		top: -2px;
+		left: 219px;
 		font-size: 18px;
 	}
 	.pic1 {
@@ -598,7 +603,7 @@
 		display: block;
 		background-image: url(../img/pic.png);
 		position: relative;
-		left: 14px;
+		left: 34px;
 		top: 26px;
 	}
 	.pic2 {
@@ -608,8 +613,8 @@
 		background-image: url(../img/pic.png);
 		position: relative;
 		background-position: -1px;
-		left: 44px;
-		top: 28px;
+		left: 51px;
+		top: 32px;
 	}
 	.pic3 {
 		height: 30px;
@@ -619,14 +624,14 @@
 		background-position: 0px;
 		position: relative;
 		top: 26px;
-		left: 51px;
+		left: 77px;
 	}
 	.content {
 		padding-top: 75px;
 		padding-bottom: 39px;
 	}
 	.content_block {
-		width: 768px;
+		width: 748px;
 		margin: 0 auto;
 	}
 	.blog {
@@ -662,8 +667,8 @@
 	#link {
 		display: inline-block;
 		position: relative;
-    	left: 316px;
-    	top: -49px;
+    	left: 327px;
+    	top: -51px;
 		font-family: "LeagueGothic";
 		color: black;
 		font-size: 18px;
@@ -672,7 +677,7 @@
 	.blog1 {
     	width: 328px;
     	height: 276px;
-    	margin-left: 395px;
+    	margin-left: 413px;
     	margin-top: -295px;
     	white-space: nowrap;
     	overflow: hidden;
@@ -692,29 +697,28 @@
 		padding-bottom: 30px;
 	}
 	.partner_icon {
-		width: 768px;
-		padding-left: 49px;
+		width: 748px;
 	}
 	.icon {
 		margin-top: 6px;
-		margin-right: 73px;
-		margin-left: -26px;
+		margin-right: 19px;
+		margin-left: 25px;
 	}
 	.comments {
 		padding-bottom: 89px;
-		padding-top: 93px;
+		padding-top: 90px;
 	}
 	.comments_col {
-		width: 768px;
+		width: 748px;
 	}
 	.col1,.col2 {
 		display: none;
 	}
 	.col3 {
-		width: 204px;
+		width: 200px;
 		height: 210px;
 		overflow: hidden;
-		margin-left: 9px;
+		margin-left: 12px;
 	}
 	.col3 h3 {
 		line-height: 40px;
@@ -732,17 +736,17 @@
 		display: inline-block;
 		text-align: left;
 		overflow: hidden;
-		width: 204px;
+		width: 200px;
 		height: 210px;
-		margin-left: 56px;
+		margin-left: 59px;
 	}
 	.col5 {
 		display: inline-block;
 		text-align: left;
 		overflow: hidden;
-		width: 204px;
+		width: 200px;
 		height: 210px;
-		margin-left: 54px;
+		margin-left: 41px;
 	}
 	.col4 h3 {
 		line-height: 40px;
@@ -773,18 +777,18 @@
 		padding-bottom: 85px;
 	}
 	.footer_block {
-		width: 768px;
+		width: 748px;
 	}
 	.menu_footer {
-		right: 112px;
+		right: 102px;
 	}
 	.footer span {
 		top: 33px;
-		margin-left: 585px;
+		margin-left: 608px;
 	}
 
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
 	.header {
 		height: 547px;
 	}
@@ -792,7 +796,7 @@
 		margin-left: 0;
 	}
 	.main_menu {
-		width: 480px;
+		width: 460px;
 		text-align: center;
 		padding-bottom: 57px;
 		margin: 0 auto;
@@ -871,7 +875,7 @@
 		width: 272px;
 		height: 66px;
 		margin-top: 5px;
-		margin-left: 13px;
+		margin-left: 2px;
 		margin-right: 140px;
 		text-align: left;
 		display: inline-block;
@@ -904,7 +908,7 @@
 		display: block;
 		position: absolute;
 		top: -104px;
-		right: -22px;
+		right: -15px;
 	}
 	.slides_input {
 		margin-top: 104px;
@@ -912,75 +916,76 @@
 	}
 	.company {
 		padding-top: 55px;
-		padding-bottom: 72px;
+		padding-bottom: 70px;
 	}
 	.text {
-		width: 480px;
+		width: 460px;
 		margin: 0 auto;
 	}
 	.wraper_1,.wraper_2,.wraper_3 {
 		display: block;
+		width: 330px;
 	}
 	.company__text1 {
 		width: 366px;
 		height: 108px;
 		margin-top: -9px;
-		margin-left: 88px;
+		margin-left: 75px;
 	}
 	.company__text2 {
 		width: 366px;
 		height: 108px;
 		margin-top: -12px;
-		margin-left: 90px;
+		margin-left: 75px;
 	}
 	.company__text3 {
 		width: 366px;
 		height: 108px;
 		margin-top: -4px;
-		margin-left: 88px;
+		margin-left: 75px;
 	}
 	.wraper_1 a {
 		top: 0px;
-		left: 283px;
+		left: 391px;
 		font-size: 18px;
 	}
 	.wraper_2 a {
 		top: 2px;
-		left: 281px;
+		left: 391px;
 		font-size: 18px;
 	}
 	.wraper_3 a {
 		top: -1px;
-		left: 282px;
+		left: 391px;
 		font-size: 18px;
 	}
 	.pic1 {
-		left: 34px;
+		left: 25px;
 		top: 24px;
 	}
 	.pic2 {
-		left: 37px;
+		left: 25px;
 		top: 26px;
 	}
 	.pic3 {
 		top: 30px;
-		left: 34px;
+		left: 25px;
 	}
 	.content {
 		padding-top: 56px;
 		padding-bottom: 76px;
 	}
 	.content_block {
-		width: 480px;
+		width: 460px;
 		margin: 0 auto;
 	}
 	.blog {
 		display: block;
-		width: 378px;
+		width: 376px;
 		height: 172px;
-		margin-left: 46px;
+		margin-left: 34px;
 		margin-right: 0;
-		margin-top: 14px;
+		margin-top: 12px;
 		padding-top: 23px;
 		padding-bottom: 77px;
 	}
@@ -994,14 +999,14 @@
 	}
 	#photo {
 		position: absolute;
-		left: 22px;
-		top: 20px;
+		left: 12px;
+		top: 17px;
 		z-index: 2;
 	}
 	.blog1 {
 		display: block;
 		margin-top: 35px;
-		margin-left: 86px;
+		margin-left: 74px;
 	}
 	.input_blog {
 		margin-top: 20px;
@@ -1015,19 +1020,18 @@
 	}
 	#link {
     	left: 140px;
-    	top: -11px;
+    	top: -13px;
 	}
 	.partner {
 		padding-top: 15px;
-		padding-bottom: 43px;
+		padding-bottom: 46px;
 	}
 	.partner_icon {
-		width: 480px;
-		padding-left: 0px;
+		width: 460px;
 	}
 	.icon {
 		margin-top: 17px;
-		margin-right: 30px;
+		margin-right: 21px;
 		margin-left: 30px;
 	}
 	.comments {
@@ -1035,27 +1039,27 @@
 		padding-top: 69px;
 	}
 	.comments_col {
-		width: 480px;
+		width: 460px;
 	}
 	.col3 {
 		display: block;
 		width: 440px;
 		height: 130px;
 		margin-bottom: 55px;
-		margin-left: 20px;
+		margin-left: 11px;
 	}
 	.col4 {
 		display: block;
 		width: 440px;
 		height: 130px;
-		margin-left: 21px;
+		margin-left: 11px;
 		margin-bottom: 59px;
 	}
 	.col5 {
 		display: block;
 		width: 440px;
 		height: 130px;
-		margin-left: 21px;
+		margin-left: 11px;
 		margin-bottom: 55px;
 	}
 	.footer {
@@ -1063,7 +1067,7 @@
 		padding-bottom: 85px;
 	}
 	.footer_block {
-		width: 480px;
+		width: 460px;
 	}
 	.menu_footer {
 		right: 7px;
@@ -1082,7 +1086,7 @@
 	}
 
 } 
-@media screen and (max-width: 479px) {
+@media screen and (max-width: 480px) {
 	.header {
 		height: 517px;
 		background-image: url(../img/bg_header.jpg);
@@ -1107,7 +1111,7 @@
 	.slides_text {
 		width: 204px;
 		height: 60px;
-		margin-right: -7px;
+		margin-right: -19px;
 	}
 	.slides_text h1 {
 		font-size: 32px;
@@ -1125,55 +1129,55 @@
 	}
 	.company {
 		padding-top: 36px;
-		padding-bottom: 70px;
+		padding-bottom: 90px;
 	}
 	.text {
 		width: 320px;
 	}
 	.company__text1 {
-		width: 195px;
+		width: 184px;
 		height: 102px;
 		margin-top: 0px;
-		margin-left: 44px;
+		margin-left: 85px;
 	}
 	.company__text2 {
-		width: 195px;
+		width: 184px;
 		height: 106px;
-		margin-top: -6px;
-		margin-left: 44px;
+		margin-top: 12px;
+		margin-left: 85px;
 	}
 	.company__text3 {
-		width: 195px;
+		width: 184px;
 		height: 102px;
-		margin-top: 13px;
-		margin-left: 45px;
+		margin-top: 31px;
+		margin-left: 85px;
 	}
 	.wraper_1 a {
-		top: 6px;
-		left: 109px;
+		top: 25px;
+		left: -33px;
 		font-size: 18px;
 	}
 	.wraper_2 a {
-		top: 6px;
-		left: 108px;
+		top: 25px;
+		left: -33px;
 		font-size: 18px;
 	}
 	.wraper_3 a {
-		top: 6px;
-		left: 109px;
+		top: 25px;
+		left: -33px;
 		font-size: 18px;
 	}
 	.pic1 {
-		left: 34px;
+		left: 35px;
 		top: 32px;
 	}
 	.pic2 {
 		left: 35px;
-		top: 32px;
+		top: 51px;
 	}
 	.pic3 {
-		top: 48px;
-		left: 35px;
+		top: 66px;
+		left: 36px;
 	}
 	.content {
 		padding-top: 45px;
@@ -1235,8 +1239,8 @@
 	.icon {
 		margin-top: 28px;
 		margin-bottom: 31px;
-		margin-right: 98px;
-		margin-left: -47px;
+		margin-right: 27px;
+		margin-left: 20px;
 	}
 	.comments {
 		display: none;
